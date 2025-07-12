@@ -1,0 +1,117 @@
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+ 
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* nav styles*/
+nav{
+    display: flex;
+     align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+nav ul li{
+list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+.nav-title{
+    font-weight: black;
+    font-size: 34px;
+}
+
+/*shared style*/
+
+.common-color{
+    color: #252432;
+}
+
+.beshi-kalo-color{
+    color:#000000;
+}
+
+.button-color{
+    color: #4E47FF;
+}
+
+.borolekha{
+  font-weight: bold;
+    font-size: 65px;
+    color: #000000;
+    text-align: center;
+    width: 900px;
+    height: 150px;
+   
+}
+.button-lekha{
+font-weight: bold;
+font-size: 16px;
+padding: 36px 12px;
+color:#FFFFFF;
+background-color: #4E47FF;
+border: none;
+border-radius: 10px;
+width:132px;
+height: 48px;
+align-items: center;
+}
+
+.logo-color{
+    color: #4E47FF;
+
+}
+
+.div-dada{
+    margin: 0 auto;
+    width: 904px;
+    height: 237px;
+
+}
+
+/*header*/
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    height: 100%;
+}
+
+/*main*/
+.title-majhkhan{
+    color:252432;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.paradayok{
+    font-size:42px;
+    font-weight:50px;
+    color: rgba(37, 36, 50,0.5);
+
+}
+
+.section-dada{
+    display: flex;
+  gap: auto;
+  background-color: aliceblue;
+  justify-content: space-around;
+  margin: 116px 159px 116px 141px;
+}
+
+
+
+
+.pic-new{
+    max-width: 400px;
+    border-radius: 48px;
+}
