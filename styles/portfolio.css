@@ -58,14 +58,13 @@ nav li a{
 .button-lekha{
 font-weight: bold;
 font-size: 16px;
-padding: 36px 12px;
+padding: 12px 12px;
 color:#FFFFFF;
 background-color: #4E47FF;
 border: none;
 border-radius: 10px;
 width:132px;
 height: 48px;
-align-items: center;
 }
 
 .logo-color{
@@ -77,13 +76,16 @@ align-items: center;
     margin: 0 auto;
     width: 904px;
     height: 237px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 
 }
 
 /*header*/
 .header{
     background-image: url('../Assets/Hero-bg.png');
-    height: 100%;
+
 }
 
 /*main*/
@@ -93,6 +95,10 @@ align-items: center;
     font-size: 42px;
 }
 
+.section-kaku{
+    margin:137px 149px 137px 151px;
+
+}
 .paradayok{
     font-size:42px;
     font-weight:50px;
